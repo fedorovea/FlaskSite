@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+
+{% block href %}
+        <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+              <img class="mb-2" src="../img/undraw_completing_re_i7ap.svg" alt="" width="70" height="50">
+          <span class="fs-4">Вернуться и купить готовые решения</span>
+        </a>
+{% endblock %}
+{% block nav %}
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+          <a class="me-3 py-2 text-dark text-decoration-none"
+             href="{{url_for('logout')}}">Выйти из личного кабинета</a>
+        </nav>
+{% endblock nav %}
+{% block div %}
+<div class="container">
+    <h2 class="display-6 fw-bold">Добавление вашего плана {{ current_user.username }}</h2><br>
+
+    <form method="post">
+        <input type="text" class="form-control" name="title" id="title" placeholder="название плана обслуживания"><br>
+        <input type="text" class="form-control" name="description" id="description" placeholder="описание вашего предложения"><br>
+        <input type="number" class="form-control" name="price" id="price" placeholder="ваша цена"><br>
+        <button class="btn btn-success" type="submit"> Добавляем!</button>
+    </form>
+</div>
+{% endblock %}
+{% block main %}  {% endblock %}

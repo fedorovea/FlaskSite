@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="icon" type="png" href="../img/icons8-favorites.svg" />
+    <title> Fedorov FLASK</title>
+  </head>
+
+  <div class="container py-3">
+    <header>
+      <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+        {% block href %}
+        <a href="/about" class="d-flex align-items-center text-dark text-decoration-none">
+
+          <img class="mb-2" src="../img/undraw_completing_re_i7ap.svg" alt="" width="70" height="50">
+          <span class="fs-4">Написать нашим дипломатам</span>
+        </a>
+        {% endblock %}
+        {% block nav %}
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+          <a class="me-3 py-2 text-dark text-decoration-none" href="/create">Личный кабинет</a>
+          <a class="me-3 py-2 text-dark text-decoration-none" href="https://www.defense.gov">Пожелания</a>
+          <a class="me-3 py-2 text-dark text-decoration-none" href='https://www.defense.gov'>Поддержка</a>
+          <a class="py-2 text-dark text-decoration-none" href="#">Aliexpress</a>
+        </nav>
+        {% endblock nav %}
+      </div>
+      {% block div %}
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Поддержка сайта</h1>
+        <p class="fs-5 text-muted">Квалифицированное сопровождение сайта – правильное решение для бизнеса, позволяет с максимальным удобством и минимальным вовлечением заказчика выполнять работы по техническому обслуживанию, программированию, верстке, дизайну, разработке, обновлению и продвижению.</p>
+      </div>
+      {% endblock %}
+    </header>
+    <main>
+      {% block main %}
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Базовый</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">Бесплатно<small class="text-muted fw-light">/месяц</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>10 гномов работяг</li>
+                <li>Работают днем</li>
+                <li>Связываются с вами по email</li>
+                <li>Ваш сайт работает</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Куплю, но когда подкоплю перейду на Оптимальный</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Оптимальный</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">1500 Рублей<small class="text-muted fw-light">/месяц</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>20 эльфов специалистов</li>
+                <li>Работают днем и вечером</li>
+                <li>Связываются с вами по email и телефону</li>
+                <li>Ваш сайт работает и под защитой</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Нажимаю не задумываясь, больше таких предложений на рынке нет</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Премиум</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">2900 Рублей<small class="text-muted fw-light">/месяц</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>30 людей ученых</li>
+                <li>Работают круглосуточно</li>
+                <li>Связываются с вами по email,телефону и приезжают домой</li>
+                <li>Ваш сайт защищают лучше чем сайт NASA</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Нажимаю и мне приносят коктейль</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endblock %}
+      {% block footer %}
+      <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img class="mb-2" src="../img/photo_2022-11-05_22-42-26.svg" alt="" width="285" height="150">
+            <small class="d-block mb-3 text-muted">© 1992–2023</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Продвижение сайтов</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">SEO продвижение</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">По запросам</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Внимательные тут</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Продвижение в регионах</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Реклама сайтов</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Интернет-магазины</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Поддержка сайтов</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Комплексная поддержка</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Тарифы и цены</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Поддержка сайтов + SEO</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Поддержка на Битрикс</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Контекстная реклама</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Контекстная реклама Яндекс Директ </a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Реклама Google Ads</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Тарифы и цены</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Команда</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      {% endblock %}
+    </main>
+</div>
+</html>

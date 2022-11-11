@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+
+
+{% block href %}
+        <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+              <img class="mb-2" src="../img/undraw_completing_re_i7ap.svg" alt="" width="70" height="50">
+          <span class="fs-4">Вернуться и купить готовые решения</span>
+        </a>
+{% endblock %}
+{% block div %}
+<div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="../img/undraw_reminder_re_fe15.svg" alt="" width="250" height="150">
+    <h1 class="display-5 fw-bold">{{ current_user.username }} хотите создать индивидуальный план?</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Мы выслушаем все ваши хотелки, запишем и начнем думать как угодить вам. Без внимания вы не останетесь! Создавая индивидуальный план вы растете как руководитель вашего проекта, а мы становимся лучше! Спасибо что дочитали до конца, а то Евгений не устроится на работу.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a href="/create" type="button" class="btn btn-primary btn-lg px-4 gap-3">Начать творить</a>
+        <a href="/user_suggestions" type="button" class="btn btn-outline-secondary btn-lg px-4">Ваши варианты</a>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+{% block main %} {% endblock %}
+
