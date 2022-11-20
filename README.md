@@ -50,9 +50,12 @@ pip install -r requirements.txt
 
 Login           |  Register
 :-------------------------:|:-------------------------:
-![Sample](https://github.com/fedorovea/FlaskSite/blob/main/frontstatic/1.png)  |  ![Sample](https://github.com/fedorovea/FlaskSite/blob/main/frontstatic/4.png)
+![Sample](https://github.com/fedorovea/FlaskSite/blob/main/frontstatic/1.png)  |  ![Sample](https://github.com/fedorovea/FlaskSite/blob/main/frontstatic/4.png)</br>
 
-</br>
+Main page           |  Personal offers
+:-------------------------:|:-------------------------:
+![Sample](https://github.com/fedorovea/FlaskSite/blob/main/frontstatic/2.png)  |  ![Sample](https://github.com/fedorovea/FlaskSite/blob/main/frontstatic/3.png)</br>
+
 
 
 
