@@ -27,12 +27,16 @@ python3 -m venv venv
 **Windows** 
 
 ```venv\Scripts\activate```
+
+```python -m pip install --upgrade pip```
           
 **macOS/Linux**
 
 ```. venv/bin/activate```
 or
 ```source venv/bin/activate```
+
+```python3 -m pip install --upgrade pip```
 
 ### 3 .Install the requirements
 
