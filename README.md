@@ -39,7 +39,7 @@ or
 Applies for windows/macOS/Linux
 
 ```
-cd main
+cd FlaskSite
 pip install -r requirements.txt
 ```
 ### 4 .Migrate/Create a database
