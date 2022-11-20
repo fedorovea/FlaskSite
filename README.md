@@ -9,7 +9,7 @@
 ```bash
 git clone https://github.com/fedorovea/FlaskSite.git
 cd FlaskSite
-py -3 -m venv venv
+py -3 -m venv
 
 ```
           
@@ -18,7 +18,7 @@ py -3 -m venv venv
 ```bash
 git clone https://github.com/fedorovea/FlaskSite.git
 cd FlaskSite
-python3 -m venv venv
+python3 -m venv
 
 ```
 
