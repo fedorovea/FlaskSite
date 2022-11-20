@@ -1,6 +1,6 @@
 # Website + Authentication in Flask
 
-## Set up & Installation.
+## Set up & Installation
 
 ### 1 .Clone/Fork the git repo and create an environment 
                     
@@ -46,22 +46,7 @@ pip install -r requirements.txt
 
 ```python manage.py```
 
-### 5. Run the application 
 
-**For linux and macOS**
-Make the run file executable by running the code
-
-```chmod 777 run```
-
-Then start the application by executing the run file
-
-```./run```
-
-**On windows**
-```
-set FLASK_APP=routes
-flask run
-```
 
 Login           |  Register
 :-------------------------:|:-------------------------:
