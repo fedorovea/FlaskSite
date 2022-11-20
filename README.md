@@ -54,11 +54,11 @@ pip install -r requirements.txt
 
 **Windows**
 
-```python manage.py runserver```
+```python routes.py runserver```
 
 **macOS/Linux**
 
-```python3 manage.py runserver```
+```python3 routes.py runserver```
 
 
 Login           |  Register
