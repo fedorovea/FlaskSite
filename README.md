@@ -50,6 +50,15 @@ pip install -r requirements.txt
 
 ```python manage.py```
 
+### 5 .Run Project
+
+**Windows**
+
+```python manage.py runserver```
+
+**macOS/Linux**
+
+```python3 manage.py runserver```
 
 
 Login           |  Register
@@ -59,7 +68,4 @@ Login           |  Register
 Main page           |  Personal offers
 :-------------------------:|:-------------------------:
 ![Sample](https://github.com/fedorovea/FlaskSite/blob/main/frontstatic/2.png)  |  ![Sample](https://github.com/fedorovea/FlaskSite/blob/main/frontstatic/3.png)</br>
-
-
-
 
